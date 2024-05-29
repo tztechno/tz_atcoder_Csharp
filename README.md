@@ -1,17 +1,44 @@
 # tz_atcoder_csharp
 
-        // a,b=map(int,input().split())  
+### latest
+---
+```
 
-        string[] input = Console.ReadLine().Split();  
-        int a = int.Parse(input[0]);  
-        int b = int.Parse(input[1]);  
+```
+---
+```
 
+```
+---
+```
 
-        // S[b-1],S[a-1]=S[a-1],S[b-1]  
+```
+---
+```
 
-        char[] charArray = S.ToCharArray();  
-        char temp = charArray[a - 1];  
-        charArray[a - 1] = charArray[b - 1];  
-        charArray[b - 1] = temp;  
-        S = new string(charArray);  
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+
+```
+---
+```
+要素追加はadd
+L.Add(L[i - 2] + L[i - 1]);
+```
+---
+```
+C#におけるlist定義
+List<long> L = new List<long> { 2, 1 };
+long[] L = {2,1} ;
+```
+---
         
