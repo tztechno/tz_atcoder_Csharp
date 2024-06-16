@@ -27,7 +27,10 @@
 ```
 ---
 ```
-
+数字文字列をバラバラにして足す
+int M=0;
+foreach (char x in X)
+{ M += int.Parse(x.ToString());}
 ```
 ---
 ```
